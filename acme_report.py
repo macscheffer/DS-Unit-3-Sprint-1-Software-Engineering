@@ -33,10 +33,10 @@ def inventory_report(products):
     avg_flammability = sum([prod.flammability for prod in products]) / len(products)
     
     print('Number of products %s' % len(products))
-    print('Number of unique products %s' % round(unique,3))
-    print('Average price of products %s' % round(avg_price,3))
-    print('Average weight of products %s' % round(avg_weight,3))
-    print('Average flammability of products %s' % round(avg_flammability,3))
+    print('Number of unique products %s' % round(unique, 3))
+    print('Average price of products %s' % round(avg_price, 3))
+    print('Average weight of products %s' % round(avg_weight, 3))
+    print('Average flammability of products %s' % round(avg_flammability, 3))
 
 if __name__ == '__main__':
     inventory_report(generate_products())
