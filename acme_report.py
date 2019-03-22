@@ -21,6 +21,7 @@ def inventory_report(products):
     
     '''
     returns
+        - the number of total products
         - the number of unique product names 
         - the average price of those products
         - the average weight of those products
