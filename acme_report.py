@@ -20,7 +20,7 @@ def generate_products(n=30):
 def inventory_report(products):
     
     '''
-    returns
+    prints
         - the number of total products
         - the number of unique product names 
         - the average price of those products
