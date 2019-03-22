@@ -74,7 +74,7 @@ class BoxingGlove(Product):
         takes a good swing at someone 
         and returns their response based on the gloves weight.
         '''
-
+        
         if self.weight < 5:
             return 'That tickles.'
         
