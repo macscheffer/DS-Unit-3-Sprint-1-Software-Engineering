@@ -12,8 +12,8 @@ def generate_products(n=30):
     
     return [Product(
         name = random.choice(adjs) + ' ' + random.choice(nouns),
-        price = random.randint(5,100),
-        weight = random.randint(5,100),
+        price = random.randint(5, 100),
+        weight = random.randint(5, 100),
         flammability = random.uniform(0.0, 2.5)) for _ in range(n)]
 
 
