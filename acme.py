@@ -21,6 +21,7 @@ class Product():
         self.identifier = random.randint(1000000, 9999999)
         
     def stealability(self):
+        
         '''
         Returns the stealability of a product.
         '''
@@ -35,6 +36,7 @@ class Product():
             return 'very stealable'
         
     def explode(self):
+        
         '''
         returns a message regarding the fact boxing gloves dont explode.
         '''
@@ -67,6 +69,7 @@ class BoxingGlove(Product):
     
     
     def punch(self):
+        
         '''
         takes a good swing at someone 
         and returns their response based on the gloves weight.
