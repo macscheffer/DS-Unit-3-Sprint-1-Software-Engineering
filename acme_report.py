@@ -2,6 +2,7 @@ import random
 from acme import Product
 
 def generate_products(n=30):
+    
     '''
     generates a list of products that we can then return.
     '''
