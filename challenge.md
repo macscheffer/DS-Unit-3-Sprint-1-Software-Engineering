@@ -264,10 +264,15 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  
+  It seems important to do code reviews so that you know your code is readable. This not only helps "future you" but this also is an important aspect of being effective within a team. This gets even more important when working on more complex problems. Imagine you or your teams solves a tough problem, but cannot understand the solution code three months later and need to spend more time resolving that problem. This is suboptimal and demonstrates why code reviews are important. 
+  
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
 
+  Environments are vital to the organization of any project. Without different environments teams can waste time working through different bugs or problems that could otherwise be avoided through use of containers. Containers allow problem specific containers for different tasks such as developement and testing. Using development and testing as an example - imagine the testing environment doesn't need to be as complex as the development environment. Without setting up two distinct environments there could be unncessary bugs in the testing environment. Containers also make this process much more simple to have multiple environments on the same machine. 
+  
 Answer both of these questions (baseline ~5 sentences) here in text.
 
 ### Part 8 - Turn it in!
