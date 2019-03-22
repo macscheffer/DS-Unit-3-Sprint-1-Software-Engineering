@@ -273,7 +273,7 @@ career here, you'll have to answer the following:
 
   Environments are vital to the organization of any project. Without different environments teams can waste time working through different bugs or problems that could otherwise be avoided through use of containers. Containers allow problem specific containers for different tasks such as developement and testing. Using development and testing as an example - imagine the testing environment doesn't need to be as complex as the development environment. Without setting up two distinct environments there could be unncessary bugs in the testing environment. Containers also make this process much more simple to have multiple environments on the same machine. 
   
-Answer both of these questions (baseline ~5 sentences) here in text.
+
 
 ### Part 8 - Turn it in!
 
