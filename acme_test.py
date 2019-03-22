@@ -15,25 +15,22 @@ class AcmeProductTests(unittest.TestCase):
         '''
         Test default price being 10.
         '''
-
         prod = Product('Test Product')
         self.assertEqual(prod.price, 10)
 
-
+        
     def test_default_product_weight(self):
         '''
         Test default weight being 20
         '''
-
         prod = Product('Test Product')
         self.assertEqual(prod.weight, 20)
 
-    
+ 
     def test_default_product_flammability(self):
         '''
         Test default flammability being 0.5
         '''
-
         prod = Product('Test Product')
         self.assertEqual(prod.flammability, 0.5)
 
@@ -41,7 +38,6 @@ class AcmeProductTests(unittest.TestCase):
         '''
         Test default product stealability
         '''
-
         prod = Product('Test Product')
         self.assertEqual(prod.stealability(), 'kinda stealable')
 
@@ -49,7 +45,6 @@ class AcmeProductTests(unittest.TestCase):
         '''
         Test default product flammability
         '''
-
         prod = Product('Test Product')
         self.assertEqual(prod.explode(), '...boom!')
 
@@ -57,7 +52,6 @@ class AcmeProductTests(unittest.TestCase):
         '''
         Test non-default product flammability
         '''
-
         prod = Product('Test Product', flammability=500)
         self.assertEqual(prod.explode(), '...BABOOM!!!')
 
@@ -71,14 +65,12 @@ class AcmeReportTests(unittest.TestCase):
         '''
         Ensures we report 30 products by default
         '''
-
         self.assert_(len(generate_products()), 30)
 
     def test_legal_names(self):
         '''
         ensures product names in reports are valid
         '''
-
         adjs = ['Awesome', 'Shiny', 'Impressive', 'Portable', 'Improved']
         nouns = ['Anvil', 'Catapult', 'Disguise', 'Mousetrap', '???']
 
