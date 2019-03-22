@@ -18,7 +18,6 @@ class AcmeProductTests(unittest.TestCase):
         prod = Product('Test Product')
         self.assertEqual(prod.price, 10)
 
-        
     def test_default_product_weight(self):
         '''
         Test default weight being 20
@@ -26,7 +25,6 @@ class AcmeProductTests(unittest.TestCase):
         prod = Product('Test Product')
         self.assertEqual(prod.weight, 20)
 
- 
     def test_default_product_flammability(self):
         '''
         Test default flammability being 0.5
@@ -54,6 +52,7 @@ class AcmeProductTests(unittest.TestCase):
         '''
         prod = Product('Test Product', flammability=500)
         self.assertEqual(prod.explode(), '...BABOOM!!!')
+
 
 class AcmeReportTests(unittest.TestCase):
 
@@ -88,5 +87,3 @@ class AcmeReportTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
